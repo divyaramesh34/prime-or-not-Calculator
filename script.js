@@ -1,13 +1,8 @@
-const text = prompt("Enter a string:");
-const vowels = "aeiouAEIOU";
-let foundVowels = "";
-
-
-for (let i = 0; i < text.length; i++) {
-    if (vowels.includes(text[i])) {
-        foundVowels += text[i];
-    }
+const text = prompt("Enter the number:");
+var i=0;
+while (i <=9 )
+{
+    document.writeln(i+1+"<br>")
+    i++;
 }
 
-//  output
-alert("Vowels found: " + foundVowels);
